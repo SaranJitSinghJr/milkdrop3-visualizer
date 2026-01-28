@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: build-apk
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,7 +24,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 9.12.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -43,6 +47,7 @@ jobs:
 
       - name: Extract build URL and download APK
         run: |
+          # Note: jq is pre-installed on ubuntu-latest runners
           BUILD_URL=$(jq -r '.[0].artifacts.buildUrl // .artifacts.buildUrl // empty' build-output.json)
           if [ -z "$BUILD_URL" ]; then
             echo "Build URL not found in output"
@@ -50,7 +55,7 @@ jobs:
             exit 1
           fi
           echo "Downloading APK from: $BUILD_URL"
-          curl -L -o milkdrop3.apk "$BUILD_URL"
+          curl -L -f --retry 3 -o milkdrop3.apk "$BUILD_URL"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
