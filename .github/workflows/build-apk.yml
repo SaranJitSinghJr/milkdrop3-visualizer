@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: npm install -g eas-cli pnpm
@@ -34,7 +34,7 @@ jobs:
           cat build-output.txt
           
           # Extract build URL from output
-          BUILD_URL=$(cat build-output.txt | grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' | head -1)
+          BUILD_URL=$(grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' build-output.txt | head -1)
           echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
           
           if [ -z "$BUILD_URL" ]; then
