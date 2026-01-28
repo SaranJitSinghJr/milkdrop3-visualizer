@@ -69,6 +69,6 @@ jobs:
             - 70+ customization settings
             - Preset save/share functionality
             
-            **Requires:** Android OS 16+ (API Level 35+)
+            **Requires:** Android 16 (API Level 36)
           draft: false
           prerelease: false

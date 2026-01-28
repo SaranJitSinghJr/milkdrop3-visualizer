@@ -23,7 +23,7 @@ Simply open the link above in your Android device's browser and tap "Download AP
 
 ## Requirements
 
-- Android OS 7.0+ (API Level 24+)
+- Android 16 (API Level 36)
 
 ## Installation
 
