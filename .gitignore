@@ -60,3 +60,6 @@ Thumbs.db
 *.tgz
 *.tar.gz
 .cache/
+
+# Build output
+dist/
