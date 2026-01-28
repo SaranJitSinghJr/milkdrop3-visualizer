@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide covers how to build the MilkDrop 3 Mobile app for Android OS 16+ and deploy it as an APK.
+This guide covers how to build the MilkDrop 3 Mobile app for Android OS 7.0+ and deploy it as an APK.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Before building the app, ensure you have:
 
 1. **Expo Account** - Sign up at [expo.dev](https://expo.dev)
 2. **EAS CLI** - Install with `npm install -g eas-cli`
-3. **Android Device or Emulator** - Running Android OS 16+ (API Level 35+)
+3. **Android Device or Emulator** - Running Android OS 7.0+ (API Level 24+)
 
 ## Build Methods
 
@@ -65,7 +65,7 @@ For advanced users who want full control over the build process.
 #### Prerequisites
 
 - Android Studio installed
-- Android SDK 35+ (Android OS 16)
+- Android SDK 24+ (Android OS 7.0)
 - Java JDK 17+
 - Node.js 22+
 
@@ -121,7 +121,7 @@ npx expo run:android
 
 1. Open Android Studio
 2. Go to Tools → AVD Manager
-3. Create a new Virtual Device (Android OS 16+)
+3. Create a new Virtual Device (Android OS 7.0+)
 4. Start the emulator
 5. Run the app:
 ```bash
@@ -263,7 +263,7 @@ Check for conflicting dependencies in `package.json`. Remove duplicates.
 
 - Check logcat: `adb logcat | grep MilkDrop`
 - Verify all permissions are granted
-- Ensure Android OS version is 16+ (API 35+)
+- Ensure Android OS version is 7.0+ (API Level 24+)
 
 **WebGL not rendering**
 
@@ -441,6 +441,6 @@ MilkDrop 3 Mobile is based on MilkDrop by Ryan Geiss. See `LICENSE.txt` for deta
 
 ---
 
-**Last Updated**: January 22, 2026  
+**Last Updated**: January 28, 2026  
 **Version**: 1.0.0  
-**Target**: Android OS 16+ (API Level 35+)
+**Target**: Android OS 7.0+ (API Level 24+)

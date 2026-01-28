@@ -174,7 +174,7 @@ To manually trigger a build without pushing code:
 
 1. Uninstall old version first
 2. Re-download APK from GitHub
-3. Ensure Android OS 16+ (API 35+)
+3. Ensure Android OS 7.0+ (API Level 24+)
 4. Check you have enough storage space
 
 ### Can't Find GitHub Actions Tab
@@ -291,6 +291,6 @@ You now have a fully automated build system! Every time you update the code, a n
 
 ---
 
-**Last Updated:** January 22, 2026  
+**Last Updated:** January 28, 2026  
 **Status:** Ready for production  
 **Support:** See support links above
