@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,7 +30,15 @@ jobs:
         run: pnpm install
 
       - name: Build APK with EAS
-        run: eas build --platform android --profile preview --non-interactive
+        run: eas build --platform android --profile preview --non-interactive --json > build-output.json
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Download APK from EAS
+        run: |
+          APK_URL=$(cat build-output.json | jq -r '.[0].artifacts.buildUrl')
+          echo "Downloading APK from: $APK_URL"
+          curl -L -o milkdrop3.apk "$APK_URL"
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
@@ -35,32 +46,31 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: milkdrop3-apk
-          path: '*.apk'
+          path: 'milkdrop3.apk'
           retention-days: 30
 
-      - name: Create Release
+      - name: Create Release with APK
         if: success()
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ github.run_number }}
-          release_name: MilkDrop 3 Mobile Build ${{ github.run_number }}
+          tag_name: v1.0.${{ github.run_number }}
+          name: MilkDrop 3 Mobile v1.0.${{ github.run_number }}
           body: |
             ## MilkDrop 3 Mobile APK Build
             
-            **Build Number:** ${{ github.run_number }}
+            **Version:** 1.0.${{ github.run_number }}
             **Commit:** ${{ github.sha }}
             **Branch:** ${{ github.ref_name }}
             
-            Download the APK from the artifacts section below.
+            ### Download
+            Click on `milkdrop3.apk` below to download the APK directly.
             
             ### Installation Instructions
             1. Download the APK file
-            2. Transfer to your Android device
-            3. Enable "Install from Unknown Sources" in Settings
-            4. Tap the APK to install
-            5. Launch MilkDrop 3!
+            2. Transfer to your Android device (if needed)
+            3. Enable "Install from Unknown Sources" in Settings > Security
+            4. Tap the APK file to install
+            5. Launch MilkDrop 3 and enjoy!
             
             ### Features
             - WebGL visualization engine
@@ -69,6 +79,7 @@ jobs:
             - 70+ customization settings
             - Preset save/share functionality
             
-            **Requires:** Android OS 16+ (API Level 35+)
+            **Requires:** Android 7.0+ (API Level 24+)
+          files: milkdrop3.apk
           draft: false
           prerelease: false
