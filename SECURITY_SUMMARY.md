@@ -1,5 +1,18 @@
 # Security Summary
 
+## Recent Security Updates
+
+### ✅ Fixed: @trpc/server Prototype Pollution Vulnerability (January 28, 2026)
+
+- **Vulnerability**: Prototype pollution in `experimental_nextAppDirCaller`
+- **Affected versions**: @trpc/server >= 11.0.0, < 11.8.0
+- **Fix**: Updated to version 11.8.0
+- **Updated packages**:
+  - @trpc/client: 11.7.2 → 11.8.0
+  - @trpc/react-query: 11.7.2 → 11.8.0
+  - @trpc/server: 11.7.2 → 11.8.0
+- **Status**: ✅ Fixed and verified
+
 ## Security Scan Results
 
 A CodeQL security scan was performed on the repository. The following alerts were identified:
