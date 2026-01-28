@@ -6,9 +6,6 @@ on:
       - 'v*'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -42,7 +39,7 @@ jobs:
           cat build-output.txt
           
           # Extract build URL from output
-          BUILD_URL=$(cat build-output.txt | grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' | head -1)
+          BUILD_URL=$(grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' build-output.txt | head -1)
           echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
           
           if [ -z "$BUILD_URL" ]; then
@@ -56,6 +53,7 @@ jobs:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
       - name: Build Info
+        continue-on-error: true
         run: |
           echo "## EAS Build Started" >> $GITHUB_STEP_SUMMARY
           echo "Build URL: ${{ steps.eas-build.outputs.build_url }}" >> $GITHUB_STEP_SUMMARY
