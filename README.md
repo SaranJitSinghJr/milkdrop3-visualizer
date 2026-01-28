@@ -11,6 +11,7 @@ Simply open the link above in your Android device's browser and tap "Download AP
 ### Alternative Download Methods
 
 - **[GitHub Releases](https://github.com/SaranJitSinghJr/milkdrop3-visualizer/releases)** - All versions available
+- **[Android Release Page](https://github.com/SaranJitSinghJr/milkdrop3-visualizer/releases/tag/Android)** - Link to Android release tag page
 - **GitHub Actions** - Download from build artifacts
 
 ## Features
