@@ -13,6 +13,18 @@ Simply open the link above in your Android device's browser and tap "Download AP
 - **[GitHub Releases](https://github.com/SaranJitSinghJr/milkdrop3-visualizer/releases)** - All versions available
 - **GitHub Actions** - Download from build artifacts
 
+## Building Your Own APK
+
+This repository is set up to automatically build APKs using GitHub Actions and EAS (Expo Application Services).
+
+**Quick Start:**
+1. Add your Expo token to GitHub Secrets as `EXPO_TOKEN`
+2. Create a git tag: `git tag v1.0.1 && git push origin v1.0.1`
+3. Wait 15-20 minutes for the build to complete
+4. Download the APK from GitHub Releases
+
+See **[APK_BUILD_INSTRUCTIONS.md](APK_BUILD_INSTRUCTIONS.md)** for detailed instructions.
+
 ## Features
 
 - 🎨 WebGL visualization engine
