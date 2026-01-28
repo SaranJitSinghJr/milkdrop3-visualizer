@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
+    env:
+      APK_FILENAME: milkdrop3.apk
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -42,24 +45,33 @@ jobs:
           fi
           cat build-output.json
           
+          # Validate JSON structure
+          if ! jq -e '.[0]' build-output.json > /dev/null 2>&1; then
+            echo "Error: Unexpected JSON structure from EAS output"
+            cat build-output.json
+            exit 1
+          fi
+          
           # Extract build URL and artifact URL from output
           BUILD_URL=$(jq -r '.[0].logsUrl // empty' build-output.json)
           ARTIFACT_URL=$(jq -r '.[0].artifacts.buildUrl // empty' build-output.json)
           
-          echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
-          echo "artifact_url=$ARTIFACT_URL" >> $GITHUB_OUTPUT
-          
+          # Validate ARTIFACT_URL (critical)
           if [ -z "$ARTIFACT_URL" ] || [ "$ARTIFACT_URL" = "null" ]; then
             echo "Error: Could not extract artifact URL from EAS output"
             cat build-output.json
             exit 1
           fi
           
+          # Validate BUILD_URL (non-critical, set to N/A if missing)
           if [ -z "$BUILD_URL" ] || [ "$BUILD_URL" = "null" ]; then
             echo "Warning: Could not extract build logs URL"
             BUILD_URL="N/A"
-            echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
           fi
+          
+          # Output values for subsequent steps
+          echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
+          echo "artifact_url=$ARTIFACT_URL" >> $GITHUB_OUTPUT
           
           echo "Build completed successfully!"
           echo "Build logs: $BUILD_URL"
@@ -70,22 +82,29 @@ jobs:
       - name: Download APK from EAS
         run: |
           APK_URL="${{ steps.eas-build.outputs.artifact_url }}"
-          echo "Downloading APK from: $APK_URL"
-          curl -L --fail --max-time 600 --connect-timeout 60 -o milkdrop3.apk "$APK_URL"
           
-          if [ ! -f milkdrop3.apk ] || [ ! -s milkdrop3.apk ]; then
+          # Validate URL before downloading
+          if [ -z "$APK_URL" ] || [ "$APK_URL" = "null" ]; then
+            echo "Error: APK URL is empty or invalid"
+            exit 1
+          fi
+          
+          echo "Downloading APK from: $APK_URL"
+          curl -L --fail --max-time 600 --connect-timeout 60 -o "$APK_FILENAME" "$APK_URL"
+          
+          if [ ! -f "$APK_FILENAME" ] || [ ! -s "$APK_FILENAME" ]; then
             echo "Error: APK download failed or file is empty"
             exit 1
           fi
           
           echo "APK downloaded successfully"
-          ls -lh milkdrop3.apk
+          ls -lh "$APK_FILENAME"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: milkdrop3-apk
-          path: milkdrop3.apk
+          path: ${{ env.APK_FILENAME }}
           retention-days: 30
 
       - name: Build Info
