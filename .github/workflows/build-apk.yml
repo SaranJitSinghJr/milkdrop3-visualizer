@@ -1,0 +1,118 @@
+name: Build APK with EAS
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install -g eas-cli pnpm
+        
+      - name: Install project dependencies
+        run: pnpm install
+
+      - name: Build APK with EAS (wait for completion)
+        id: eas_build
+        run: |
+          BUILD_OUTPUT=$(eas build --platform android --profile preview --non-interactive --wait 2>&1)
+          echo "$BUILD_OUTPUT"
+          # Extract the build ID from the output
+          BUILD_ID=$(echo "$BUILD_OUTPUT" | grep -oP 'Build ID: \K[a-f0-9-]+' || echo "")
+          echo "build_id=$BUILD_ID" >> $GITHUB_OUTPUT
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Download APK from EAS
+        run: |
+          set -e
+          # Get the most recent finished build info
+          eas build:list --platform android --status finished --limit 1 --json > build_info.json
+          
+          # Verify build info is not empty
+          if [ ! -s build_info.json ] || [ "$(cat build_info.json)" = "[]" ]; then
+            echo "Error: No finished builds found"
+            exit 1
+          fi
+          
+          # Extract the APK URL (EAS uses 'artifacts.buildUrl' for the download URL)
+          APK_URL=$(jq -r '.[0].artifacts.buildUrl // empty' build_info.json)
+          
+          if [ -z "$APK_URL" ]; then
+            echo "Error: Could not find APK URL in build info"
+            cat build_info.json
+            exit 1
+          fi
+          
+          echo "Downloading APK from: $APK_URL"
+          curl -fL -o milkdrop3.apk "$APK_URL"
+          
+          # Verify the APK was downloaded
+          if [ ! -s milkdrop3.apk ]; then
+            echo "Error: APK file is empty or not downloaded"
+            exit 1
+          fi
+          
+          echo "APK downloaded successfully: $(ls -lh milkdrop3.apk)"
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: milkdrop3-apk
+          path: 'milkdrop3.apk'
+          retention-days: 30
+
+      - name: Create Release with APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: MilkDrop 3 Mobile v1.0.${{ github.run_number }}
+          body: |
+            ## MilkDrop 3 Mobile APK Build
+            
+            **Build Number:** ${{ github.run_number }}
+            **Commit:** ${{ github.sha }}
+            **Branch:** ${{ github.ref_name }}
+            
+            ### Download
+            Click on **milkdrop3.apk** below to download the APK directly.
+            
+            ### Installation Instructions
+            1. Download the APK file
+            2. Transfer to your Android device
+            3. Enable "Install from Unknown Sources" in Settings
+            4. Tap the APK to install
+            5. Launch MilkDrop 3!
+            
+            ### Features
+            - WebGL visualization engine
+            - 319 curated presets
+            - Touch gesture controls
+            - 70+ customization settings
+            - Preset save/share functionality
+            
+            **Requires:** Android OS 7.0+ (API Level 24+)
+          files: milkdrop3.apk
+          draft: false
+          prerelease: false
