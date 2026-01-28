@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,38 +17,41 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Extract project source
+        run: |
+          tar -xzf milkdrop3-mobile-source.tar.gz
+          cd milkdrop3-mobile
+          ls -la
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install -g eas-cli pnpm
-        
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install EAS CLI
+        run: npm install -g eas-cli
+
       - name: Install project dependencies
+        working-directory: milkdrop3-mobile
         run: pnpm install
 
       - name: Build APK with EAS
+        working-directory: milkdrop3-mobile
         run: eas build --platform android --profile preview --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: milkdrop3-apk
-          path: '*.apk'
-          retention-days: 30
-
       - name: Create Release
         if: success()
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          release_name: MilkDrop 3 Mobile Build ${{ github.run_number }}
+          name: MilkDrop 3 Mobile Build ${{ github.run_number }}
           body: |
             ## MilkDrop 3 Mobile APK Build
             
@@ -53,10 +59,10 @@ jobs:
             **Commit:** ${{ github.sha }}
             **Branch:** ${{ github.ref_name }}
             
-            Download the APK from the artifacts section below.
+            Download the APK from the EAS build dashboard at [expo.dev](https://expo.dev).
             
             ### Installation Instructions
-            1. Download the APK file
+            1. Download the APK file from the EAS build link
             2. Transfer to your Android device
             3. Enable "Install from Unknown Sources" in Settings
             4. Tap the APK to install
