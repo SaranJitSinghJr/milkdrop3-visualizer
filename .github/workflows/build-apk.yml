@@ -41,7 +41,7 @@ jobs:
 
       - name: Download APK from EAS
         run: |
-          APK_URL=$(cat build-output.json | jq -r '.[0].artifacts.buildUrl')
+          APK_URL=$(jq -r '.[0].artifacts.buildUrl' build-output.json)
           if [ -z "$APK_URL" ] || [ "$APK_URL" = "null" ]; then
             echo "Error: Failed to get APK URL from EAS build output"
             cat build-output.json
