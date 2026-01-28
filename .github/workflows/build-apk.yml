@@ -1,0 +1,70 @@
+name: Build APK with EAS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify source archive exists
+        run: |
+          if [ ! -f milkdrop3-mobile-source.tar.gz ]; then
+            echo "Error: milkdrop3-mobile-source.tar.gz not found"
+            exit 1
+          fi
+
+      - name: Extract mobile source
+        run: |
+          tar -xzf milkdrop3-mobile-source.tar.gz
+          ls -la milkdrop3-mobile/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install EAS CLI
+        run: npm install -g eas-cli
+
+      - name: Install project dependencies
+        working-directory: milkdrop3-mobile
+        run: npm install
+
+      - name: Build APK with EAS
+        id: eas-build
+        working-directory: milkdrop3-mobile
+        run: eas build --platform android --profile preview --non-interactive
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Build Summary
+        run: |
+          echo "## MilkDrop 3 APK Build Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The APK has been built using EAS Build." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the EAS Build dashboard at [expo.dev](https://expo.dev) for the download link." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Installation Instructions" >> $GITHUB_STEP_SUMMARY
+          echo "1. Download the APK from EAS Build dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "2. Transfer to your Android device" >> $GITHUB_STEP_SUMMARY
+          echo "3. Enable 'Install from Unknown Sources' in Settings" >> $GITHUB_STEP_SUMMARY
+          echo "4. Tap the APK to install" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Features" >> $GITHUB_STEP_SUMMARY
+          echo "- WebGL visualization engine" >> $GITHUB_STEP_SUMMARY
+          echo "- 319 curated presets" >> $GITHUB_STEP_SUMMARY
+          echo "- Touch gesture controls" >> $GITHUB_STEP_SUMMARY
+          echo "- 70+ customization settings" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Requires:** Android 7.0+ (API Level 24+)" >> $GITHUB_STEP_SUMMARY
