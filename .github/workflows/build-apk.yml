@@ -27,48 +27,40 @@ jobs:
         run: pnpm install
 
       - name: Build APK with EAS
-        run: eas build --platform android --profile preview --non-interactive
+        id: eas-build
+        run: |
+          echo "Starting EAS build..."
+          eas build --platform android --profile preview --non-interactive --no-wait > build-output.txt
+          cat build-output.txt
+          
+          # Extract build URL from output
+          BUILD_URL=$(cat build-output.txt | grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' | head -1)
+          echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
+          
+          if [ -z "$BUILD_URL" ]; then
+            echo "Error: Could not extract build URL from EAS output"
+            exit 1
+          fi
+          
+          echo "Build started at: $BUILD_URL"
+          echo "Note: Build will continue in the cloud. Check EAS dashboard for progress."
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: milkdrop3-apk
-          path: '*.apk'
-          retention-days: 30
-
-      - name: Create Release
-        if: success()
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: build-${{ github.run_number }}
-          release_name: MilkDrop 3 Mobile Build ${{ github.run_number }}
-          body: |
-            ## MilkDrop 3 Mobile APK Build
-            
-            **Build Number:** ${{ github.run_number }}
-            **Commit:** ${{ github.sha }}
-            **Branch:** ${{ github.ref_name }}
-            
-            Download the APK from the artifacts section below.
-            
-            ### Installation Instructions
-            1. Download the APK file
-            2. Transfer to your Android device
-            3. Enable "Install from Unknown Sources" in Settings
-            4. Tap the APK to install
-            5. Launch MilkDrop 3!
-            
-            ### Features
-            - WebGL visualization engine
-            - 319 curated presets
-            - Touch gesture controls
-            - 70+ customization settings
-            - Preset save/share functionality
-            
-            **Requires:** Android OS 16+ (API Level 35+)
-          draft: false
-          prerelease: false
+      - name: Build Info
+        run: |
+          echo "## EAS Build Started" >> $GITHUB_STEP_SUMMARY
+          echo "Build URL: ${{ steps.eas-build.outputs.build_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The APK is being built in the cloud by EAS." >> $GITHUB_STEP_SUMMARY
+          echo "Download the APK from the EAS dashboard once the build completes." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Installation Instructions" >> $GITHUB_STEP_SUMMARY
+          echo "1. Wait for the EAS build to complete (check the URL above)" >> $GITHUB_STEP_SUMMARY
+          echo "2. Download the APK from EAS" >> $GITHUB_STEP_SUMMARY
+          echo "3. Transfer to your Android device" >> $GITHUB_STEP_SUMMARY
+          echo "4. Enable 'Install from Unknown Sources' in Settings" >> $GITHUB_STEP_SUMMARY
+          echo "5. Tap the APK to install" >> $GITHUB_STEP_SUMMARY
+          echo "6. Launch MilkDrop 3!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Requires:** Android 7.0+ (API Level 24+)" >> $GITHUB_STEP_SUMMARY
