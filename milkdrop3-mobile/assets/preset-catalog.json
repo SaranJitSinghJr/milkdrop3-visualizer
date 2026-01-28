@@ -1,0 +1,2907 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-22T21:55:41.997Z",
+  "totalPresets": 319,
+  "collections": [
+    "cream-of-the-crop",
+    "milkdrop-original",
+    "projectm-classic"
+  ],
+  "categories": [
+    "bltc201",
+    "dancer",
+    "drawing",
+    "eyetune",
+    "fractal",
+    "geometric",
+    "hypnotic",
+    "milkdrop",
+    "milkdrop-original",
+    "milkdrop_104",
+    "milkdrop_200",
+    "mischa_collection",
+    "particles",
+    "projectm",
+    "reaction",
+    "sparkle",
+    "stock",
+    "supernova",
+    "transition",
+    "tryptonaut",
+    "waveform",
+    "yin"
+  ],
+  "presets": [
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "levels effect === Goody's Lightning (ps 2-0) --- Isosceles edit",
+      "author": "Fast transition to black",
+      "category": "transition",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/transition/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "gas effect + zoom in === Tripgnosis - FlameOrb --- Isosceles edit",
+      "author": "Slow transition to black",
+      "category": "transition",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/transition/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "gas effect + zoom in + orange filter === Tripgnosis - FlameOrb --- Isosceles edit",
+      "author": "Slow transition to black",
+      "category": "transition",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/transition/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "gas effect + zoom out === amandio c - magnetosphere --- Isosceles edit",
+      "author": "Slow transition to black",
+      "category": "transition",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/transition/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Parallel Universe",
+      "author": "Rovastar",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Goody's Unstable Sonic Reactor",
+      "author": "Goody's Unstable Sonic",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "fiShbRaiN - white sceam firefly - mash0000 - liquid oxygen, jet fuel, and maybe some plutonium too",
+      "author": "suksma",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "small life (goes disco)",
+      "author": "amandio c",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "EoS+Phat trail_of_darkness",
+      "author": "EoS+Phat trail",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Kaleidoscope 1",
+      "author": "Geiss",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "EoS+Phat last of it's kind_Just_for_when_computers_are_faster_v2",
+      "author": "EoS+Phat last of it's kind",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "caleidos_sick",
+      "author": "PieturP",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "mickey",
+      "author": "suksma",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "caleidos_sick2",
+      "author": "PieturP",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "random 06B",
+      "author": "EoS",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "In death there is life (Geiss Layered Mix) Swelling Spiral Including Martin Remix",
+      "author": "Beat it up AdamFX REMIX 2 Zylot",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dark side of the moon (plus a few more hits)",
+      "author": "EoS",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dark side of the moon-clean mix",
+      "author": "EoS",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dark side of the moon",
+      "author": "EoS",
+      "category": "dancer",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/dancer/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "emergencey 2 --- Isosceles edit9a pulse",
+      "author": "Flexi",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "emergencey 2 --- Isosceles edit9b pulse",
+      "author": "Flexi",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Acid Angel",
+      "author": "Goody's Portfolio",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Acid Angel - Your Brain on LSD remix",
+      "author": "Goody's Portfolio",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (necromancer remix)_phat_edit_v3",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "glowing 5 - fingers rmx",
+      "author": "fed",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Time travling through a traffic jam",
+      "author": "Redi Jedi",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (sorcery remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (neuromancer remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "I am the witch",
+      "author": "Zylot and FishBrain",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (alcoholic remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (ritual dance remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (metropolis remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "witchcraft (necromancer remix)",
+      "author": "fiShbRaiN",
+      "category": "drawing",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/drawing/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "#17 Travelling backwards in a Tunnel of Light",
+      "author": "EvilJim",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "#11 Ice Drops",
+      "author": "EvilJim",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ice Drops",
+      "author": "EvilJim",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Northern Lights Bud",
+      "author": "Northern Lights",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Boz-buckwild",
+      "author": "Boz",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Northern Lights Throbbing Bud",
+      "author": "Northern Lights Throbbing",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Golden Rays",
+      "author": "Pithlit",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Whirlpool",
+      "author": "Pithlit",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cathedral",
+      "author": "Pinbi7 & Idiot",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Get Sucked In",
+      "author": "Pinbi7 & Idiot",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Unknown Power Source",
+      "author": "Zylot & Idiot24",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "super star",
+      "author": "Pinbi7 & Rocke",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "IMOC Invasion",
+      "author": "Rovastar & Zylot",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Rings Of Saturn",
+      "author": "Dbleja",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Escape (Red Mix)",
+      "author": "Dbleja",
+      "category": "fractal",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/fractal/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Many Colors 1",
+      "author": "Geiss",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Mind of Zigrot",
+      "author": "Mind of",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Telek-goodoldcollingwoodforever",
+      "author": "Telek",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Kaleidoscope From Hell",
+      "author": "Stuttler",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pinbi7&stuttler-trackdown",
+      "author": "Pinbi7&stuttler",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Many More Colours",
+      "author": "Geiss and Rovastar",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "circles_progressive",
+      "author": "PieturP",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Reactor Turmoil",
+      "author": "Rovastar & Zylot",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Eruptions",
+      "author": "Ondras",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Target Practice",
+      "author": "Telek",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Horizontology (Red Mix)",
+      "author": "Dbleja",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Horizontology (Blue Mix)",
+      "author": "Dbleja",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Force Feild Generator v2-0",
+      "author": "Zylot and idiot",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "New (Indecision Code)",
+      "author": "New (Indecision",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Reactor Mirage",
+      "author": "Rovastar & Zylot",
+      "category": "geometric",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/geometric/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - curved1",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - curved3",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - curved4",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - curved4a",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - cubesBW",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - chess1",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - cubesBWa",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - pyramid1",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - sticks1",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - sticks2",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Planet escher - losang1",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "i made hexcollies day!",
+      "author": "i made hexcollies",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Op illusions - poggendo",
+      "author": "amandio c, flexi, martin",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "i made hexcollies day! [enhanced 1]",
+      "author": "i made hexcollies day! [enhanced",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Rhythm Of My Life [Flexi - alien complex]",
+      "author": "TonyMilkdrop",
+      "category": "hypnotic",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/hypnotic/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "#19 Space Voyage",
+      "author": "EvilJim",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Happening",
+      "author": "Unknown",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Kronos' Twisted Spawn",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Radar",
+      "author": "Ondras",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Border-magic",
+      "author": "Border",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Parallelogram Bin 2 (Naked Mix)",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Parallelogram Bin 2",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Space",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Space (Twisted Dimension Mix)",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "VooV's Naked Movement",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Rovastar-voovsnakedmov(pincushionmix)",
+      "author": "Rovastar",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Plasma Revisited",
+      "author": "Blastofftek",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hyperspace Rainbow",
+      "author": "Stahlregen",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Burning Form (Seething Mass) - mash0000 - fire paint easter egg internals --- Isosceles edit",
+      "author": "beta106i",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "ElectroGlitter 2",
+      "author": "Tripgnosis",
+      "category": "particles",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/particles/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Fortune Teller",
+      "author": "Sjadoh",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Zylot-eyeofthebeholder",
+      "author": "Zylot",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Acid Iris",
+      "author": "Bmelgren",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Idiot24-7-gohtsthirdeye",
+      "author": "Idiot24",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Buckwild (Sheltered Mix)",
+      "author": "Boz",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hovering Over Neptune",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hovering Over Mars",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hovering Over Pluto",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inside The Tree (Blue Mix)",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Marphet's Shrine",
+      "author": "Rovastar & Idiot24",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inside The Tree (Red Mix)",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inside The Tree (White Mix)",
+      "author": "Dbleja",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Oozing Resistance",
+      "author": "Rovastar",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dripping_piles_B",
+      "author": "stbenge",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Potion",
+      "author": "beta106i",
+      "category": "reaction",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/reaction/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Compelling Vision",
+      "author": "Compelling",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Rainbow Orb 2 Peacock (Bmelgren's Compelling Vision)",
+      "author": "Krash + Rovastar",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dots (Pixels - more blur)",
+      "author": "Stahlregen",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dots (Pixels)",
+      "author": "Stahlregen",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dots (Pixels - Blocky)",
+      "author": "Stahlregen",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dots (Pixels - no Blur)",
+      "author": "Stahlregen",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "64",
+      "author": "Unknown",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "67",
+      "author": "Unknown",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dots (Pixels - reactive blur)",
+      "author": "Stahlregen",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "ichor souse amiunable canthode",
+      "author": "suksma",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "starcraft (mashup 19 remix)",
+      "author": "stahlregen & fishbrain + flexi + geiss + shifter",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "crystal palace line005",
+      "author": "Serge + martin",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Goo",
+      "author": "Various artists",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Sparkle",
+      "author": "Tripgnosis",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "438",
+      "author": "Unknown",
+      "category": "sparkle",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/sparkle/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "3D - Luz",
+      "author": "Geiss",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "#07 Supernova",
+      "author": "EvilJim",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Nova",
+      "author": "Pithlit",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "#26 I see Light!",
+      "author": "EvilJim",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Northern Lights",
+      "author": "Rovastar",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Northern Lights",
+      "author": "Northern",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Bmelgren&unchained-a(spinningrainmix)",
+      "author": "Bmelgren&unchained",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Luz",
+      "author": "Geiss",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Nova(Rainbow mix)",
+      "author": "Pithlit",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Bmelgren&unchained-amb(mythicrainmix)",
+      "author": "Bmelgren&unchained",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Getter Sun tweek 3",
+      "author": "bmelgren",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Getter Sun tweek 2",
+      "author": "bmelgren",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Throbbing Northern Lights",
+      "author": "Bmelgren & Rovastar",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Northern Lights II",
+      "author": "Northern Lights",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Getter Sun tweek 1",
+      "author": "bmelgren",
+      "category": "supernova",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/supernova/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Voyage",
+      "author": "Rovastar",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Trippy S",
+      "author": "Rovastar",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "3D - Shockwaves",
+      "author": "Geiss",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Bipolar X",
+      "author": "Geiss",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Soup",
+      "author": "Zylot",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Trippy Sperm",
+      "author": "rovastar",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Explosive Minds",
+      "author": "Rovastar",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Xeper's Birth",
+      "author": "Rovastar",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "3D - Cosmic Dust",
+      "author": "Geiss",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Lightspeed-dune2",
+      "author": "Lightspeed",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Lightspeed-dune3",
+      "author": "Lightspeed",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Many Colors 2",
+      "author": "Geiss",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Liquid Lighting",
+      "author": "Evil02",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Returning To Rovastar's Return To The Source",
+      "author": "bmelgren",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ambrosia Mystic (Dark Heart Mix)",
+      "author": "Rovastar & Unchained",
+      "category": "waveform",
+      "type": "milk",
+      "collection": "cream-of-the-crop",
+      "assetPath": "presets/waveform/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Disco Comet",
+      "author": "nil",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ascending to heaven 2",
+      "author": "Idiot24",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Vortex of Vortices",
+      "author": "nil",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pentultimate Nerual Slipstream (Tweak 2)",
+      "author": "Bmelgren",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inkblot",
+      "author": "Geiss",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Explosive Minds",
+      "author": "Rovastar",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "phoenix",
+      "author": "Reenen",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ambrosia Mystic (Dark Heart Mix)",
+      "author": "Rovastar & Unchained",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Fog Tunnel",
+      "author": "Geiss",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Snowflake Halo",
+      "author": "Krash",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hot Air Balloon",
+      "author": "Illusion & Boz",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Balk Acid",
+      "author": "Rovastar & Idiot24",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Unknown Power Source",
+      "author": "Zylot & Idiot24",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Sugar Spun Sister",
+      "author": "Rovastar & Rocke",
+      "category": "milkdrop-original",
+      "type": "milk",
+      "collection": "milkdrop-original",
+      "assetPath": "presets/milkdrop-original/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Digiscape Advanced Processor",
+      "author": "Zylot",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ascending to heaven 2",
+      "author": "Idiot24",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Disco Comet",
+      "author": "nil",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Vortex of Vortices",
+      "author": "nil",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pentultimate Nerual Slipstream (Tweak 2)",
+      "author": "Bmelgren",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inkblot",
+      "author": "Geiss",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Explosive Minds",
+      "author": "Rovastar",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Acid Iris",
+      "author": "Bmelgren",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "phoenix",
+      "author": "Reenen",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ambrosia Mystic (Dark Heart Mix)",
+      "author": "Rovastar & Unchained",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Snowflake Halo",
+      "author": "Krash",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Fog Tunnel",
+      "author": "Geiss",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hot Air Balloon",
+      "author": "Illusion & Boz",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Balk Acid",
+      "author": "Rovastar & Idiot24",
+      "category": "bltc201",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/bltc201/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "The Deeper",
+      "author": "Zylot",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Luz",
+      "author": "Geiss",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "More Cherished Desires",
+      "author": "Rovastar & StudioMusic",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Mega Swirl 3",
+      "author": "Geiss",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Psychodelic Highway",
+      "author": "TEcHNO and SandStorm",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Inside The Planar Portal",
+      "author": "Zylot",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "The Tunnel (Final Stage Mix)",
+      "author": "Fvese",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Snowflake Like 2",
+      "author": "Fvese",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Interwoven (Nightmare Weft Mix)",
+      "author": "Krash",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Vertigo",
+      "author": "Goody",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "slowfast 1.1 (geiss composite remix)",
+      "author": "fed",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Tides (martin's metallics)",
+      "author": "Stahlregen & flexi + Geiss + martin + Rovastar",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Alex2",
+      "author": "hexcollie",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Space Gelatin (Color Xplosion)",
+      "author": "Stahlregen & Geiss + TobiasWolfBoi",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dark side of the moon (plus a few more hits and a pill)",
+      "author": "EoS",
+      "category": "eyetune",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/eyetune/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Magma Crawl",
+      "author": "Zylot",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Magma Vein",
+      "author": "Zylot",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Hollow Shell",
+      "author": "Zylot",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Corpus Callosum",
+      "author": "Geiss",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Highway to Heaven (rotating)",
+      "author": "DaNOnE",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ice Drops",
+      "author": "EvilJim",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Personal Comet",
+      "author": "Rocke",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Digiscape Advanced Processor",
+      "author": "Zylot",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pistons",
+      "author": "Geiss",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "S Pulse Virus",
+      "author": "Zylot",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Trippy S-",
+      "author": "Rovastar",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Tube",
+      "author": "Geiss",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Godhead",
+      "author": "Bmelgren",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Answer42",
+      "author": "Rocke",
+      "category": "milkdrop",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Magma Crawl",
+      "author": "Zylot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Highway to Heaven (rotating)",
+      "author": "DaNOnE",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Personal Comet",
+      "author": "Rocke",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Corpus Callosum",
+      "author": "Geiss",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Trippy S-",
+      "author": "Rovastar",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pistons",
+      "author": "Geiss",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Digiscape Advanced Processor",
+      "author": "Zylot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Burning Passion",
+      "author": "Zylot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Tunnel Of Illusion",
+      "author": "Zylot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Braindance 1",
+      "author": "Rovastar",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Timeless Voyage",
+      "author": "Rovastar",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "ATan2 Demo (Spiraling Mad Mix)",
+      "author": "Zylot & Idiot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Disco Comet",
+      "author": "nil",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "S- Pulse Virus",
+      "author": "Zylot",
+      "category": "milkdrop_104",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_104/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Magma Crawl",
+      "author": "Zylot",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pistons",
+      "author": "Geiss",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Music Flower",
+      "author": "Tschoey",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Braindance 1",
+      "author": "Rovastar",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pentultimate Nerual Slipstream (Tweak 2)",
+      "author": "Bmelgren",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Color Of Music",
+      "author": "Zylot",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Did You Speak with the Orb",
+      "author": "nil",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "The Pit",
+      "author": "TobiasWolfBoi",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "light of the path",
+      "author": "Zylot",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Luz",
+      "author": "Geiss",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cherished Desires",
+      "author": "Studio Music",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Starquake (Sunquake Mix)",
+      "author": "Rovastar",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Eggs",
+      "author": "Geiss",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ambrosia Mystic (Dark Heart Mix)",
+      "author": "Rovastar + Unchained",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "LabFunk",
+      "author": "Rovastar",
+      "category": "milkdrop_200",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/milkdrop_200/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Visitor",
+      "author": "Aderrasi",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Bow To Gravity",
+      "author": "Aderrasi",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Altars Of Madness 2 (Frozen Time Mix)",
+      "author": "Rovastar",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Dragon Science",
+      "author": "3dRaGoNs & Unchained",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "white scream firefly",
+      "author": "fiShbRaiN",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Game of Life",
+      "author": "Geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Unconstructed DreamSpace is Constructed Dos",
+      "author": "The NG + MindJourney",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Stahlregen & AdamFX  closer to god through bacon",
+      "author": "Stahlregen & AdamFX  closer to god through",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Desert Rose 4",
+      "author": "Geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Chromatexture Paint-In 2",
+      "author": "Geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "look inside the stained glass flame",
+      "author": "xmuzack + martin + Mig + EoS",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Sunflower Passion (Enlightment Mix)_Phat_edit",
+      "author": "Rovastar",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Myriad Mosaics",
+      "author": "Geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "FractalDrop (Insanity Mix)",
+      "author": "Rovastar + Loadus + Geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "dedicated to the sherwin maxawow",
+      "author": "Flexi, martin + geiss",
+      "category": "mischa_collection",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/mischa_collection/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ice Drops",
+      "author": "EvilJim",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Digiscape Advanced Processor",
+      "author": "Zylot",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Godhead",
+      "author": "bmelgren",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Follow the ball",
+      "author": "EvilJim",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Lifesavor Anyone",
+      "author": "Fvese",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Sea Of Zigrot",
+      "author": "Rovastar & Zylot",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Nautilus",
+      "author": "Geiss",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Timeless Voyage",
+      "author": "Rovastar",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Take this highway",
+      "author": "bmelgren",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ascending to heaven 2",
+      "author": "Idiot24",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pentultimate Nerual Slipstream (Tweak 2)",
+      "author": "Bmelgren",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Can't Stop the Cramming",
+      "author": "nil",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pandora's Volcano",
+      "author": "Rovastar",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Azirphaeli's Mirror",
+      "author": "Zylot",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "The Awakening",
+      "author": "Rovastar",
+      "category": "projectm",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/projectm/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Corpus Callosum",
+      "author": "Geiss",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "ATan2 Demo (Spiraling Mad Mix)",
+      "author": "Zylot & Idiot",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Highway to Heaven (rotating)",
+      "author": "DaNOnE",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ice Drops",
+      "author": "EvilJim",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Personal Comet",
+      "author": "Rocke",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Digiscape Advanced Processor",
+      "author": "Zylot",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pistons",
+      "author": "Geiss",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "S Pulse Virus",
+      "author": "Zylot",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Tube",
+      "author": "Geiss",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Godhead",
+      "author": "Bmelgren",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Meeting place",
+      "author": "Idiot24",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Follow the ball",
+      "author": "EvilJim",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Galaxy 2",
+      "author": "Geiss",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Lifesavor Anyone",
+      "author": "Fvese",
+      "category": "stock",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/stock/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Corpus Callosum",
+      "author": "Geiss",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "ATan2 Demo (Spiraling Mad Mix)",
+      "author": "Zylot & Idiot",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Highway to Heaven (rotating)",
+      "author": "DaNOnE",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Ice Drops",
+      "author": "EvilJim",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Pistons",
+      "author": "Geiss",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Cold Love (Tei Zwaa)",
+      "author": "Rocke",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "S Pulse Virus",
+      "author": "Zylot",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Tube",
+      "author": "Geiss",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Godhead",
+      "author": "Bmelgren",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Meeting place",
+      "author": "Idiot24",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Follow the ball",
+      "author": "EvilJim",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Galaxy 2",
+      "author": "Geiss",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Lifesavor Anyone",
+      "author": "Fvese",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Singularity in My Oscilloscope",
+      "author": "nil",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Starfish 2",
+      "author": "Geiss",
+      "category": "tryptonaut",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/tryptonaut/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "090 - Exit eternity",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "030 - Dance with the ocean",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "040 - Myopic infected 3d VU meters",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "070 - Speaks for itsself",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "041 - Myopic infected 3d VU meters (remix)",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "Beat Detective 007 demo",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "020 - I have no feet and I must dance",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "080 - Dream Universe",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "060 - PLU",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "160 - Controversial",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "010 - Symphonic innerverse",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "220 - Enter the silence",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "190 - Temporal fluctuations",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "170 - Take a deep breath",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    },
+    {
+      "id": "preset_L2hvbWUvdWJ1bnR1",
+      "name": "011 - Symphonic innerverse (deaf mix)",
+      "author": "yin",
+      "category": "yin",
+      "type": "milk",
+      "collection": "projectm-classic",
+      "assetPath": "presets/yin/preset_L2hvbWUvdWJ1bnR1.milk"
+    }
+  ]
+}
