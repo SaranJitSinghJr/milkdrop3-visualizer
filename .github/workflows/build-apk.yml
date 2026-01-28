@@ -35,7 +35,11 @@ jobs:
         id: eas-build
         run: |
           echo "Starting EAS build..."
-          eas build --platform android --profile preview --non-interactive --json > build-output.json
+          if ! eas build --platform android --profile preview --non-interactive --json > build-output.json; then
+            echo "Error: EAS build command failed"
+            cat build-output.json 2>/dev/null || echo "No output file generated"
+            exit 1
+          fi
           cat build-output.json
           
           # Extract build URL and artifact URL from output
@@ -51,6 +55,12 @@ jobs:
             exit 1
           fi
           
+          if [ -z "$BUILD_URL" ] || [ "$BUILD_URL" = "null" ]; then
+            echo "Warning: Could not extract build logs URL"
+            BUILD_URL="N/A"
+            echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
+          fi
+          
           echo "Build completed successfully!"
           echo "Build logs: $BUILD_URL"
           echo "APK URL: $ARTIFACT_URL"
@@ -61,7 +71,7 @@ jobs:
         run: |
           APK_URL="${{ steps.eas-build.outputs.artifact_url }}"
           echo "Downloading APK from: $APK_URL"
-          curl -L --fail -o milkdrop3.apk "$APK_URL"
+          curl -L --fail --max-time 600 --connect-timeout 60 -o milkdrop3.apk "$APK_URL"
           
           if [ ! -f milkdrop3.apk ] || [ ! -s milkdrop3.apk ]; then
             echo "Error: APK download failed or file is empty"
