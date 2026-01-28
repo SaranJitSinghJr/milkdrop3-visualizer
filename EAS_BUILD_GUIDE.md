@@ -276,7 +276,7 @@ eas build:view
 1. **Signature mismatch:** Uninstall old version first
 2. **Corrupted download:** Re-download APK
 3. **Insufficient storage:** Free up space on device
-4. **Android version too old:** Requires Android OS 16+ (API 35+)
+4. **Android version too old:** Requires Android OS 7.0+ (API 24+)
 
 ### App Crashes on Launch
 
@@ -550,4 +550,4 @@ After building your APK:
 
 **Last Updated:** January 22, 2026  
 **EAS CLI Version:** 13.2.0+  
-**Target:** Android OS 16+ (API Level 35+)
+**Target:** Android OS 7.0+ (API Level 24+)
