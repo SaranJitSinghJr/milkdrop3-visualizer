@@ -35,35 +35,62 @@ jobs:
         id: eas-build
         run: |
           echo "Starting EAS build..."
-          eas build --platform android --profile preview --non-interactive --no-wait > build-output.txt
-          cat build-output.txt
+          eas build --platform android --profile preview --non-interactive --json > build-output.json
+          cat build-output.json
           
-          # Extract build URL from output
-          BUILD_URL=$(grep -oP 'https://expo\.dev/accounts/[^/]+/projects/[^/]+/builds/[a-zA-Z0-9-]+' build-output.txt | head -1)
+          # Extract build URL and artifact URL from output
+          BUILD_URL=$(jq -r '.[0].logsUrl // empty' build-output.json)
+          ARTIFACT_URL=$(jq -r '.[0].artifacts.buildUrl // empty' build-output.json)
+          
           echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
+          echo "artifact_url=$ARTIFACT_URL" >> $GITHUB_OUTPUT
           
-          if [ -z "$BUILD_URL" ]; then
-            echo "Error: Could not extract build URL from EAS output"
+          if [ -z "$ARTIFACT_URL" ] || [ "$ARTIFACT_URL" = "null" ]; then
+            echo "Error: Could not extract artifact URL from EAS output"
+            cat build-output.json
             exit 1
           fi
           
-          echo "Build started at: $BUILD_URL"
-          echo "Note: Build will continue in the cloud. Check EAS dashboard for progress."
+          echo "Build completed successfully!"
+          echo "Build logs: $BUILD_URL"
+          echo "APK URL: $ARTIFACT_URL"
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Download APK from EAS
+        run: |
+          APK_URL="${{ steps.eas-build.outputs.artifact_url }}"
+          echo "Downloading APK from: $APK_URL"
+          curl -L --fail -o milkdrop3.apk "$APK_URL"
+          
+          if [ ! -f milkdrop3.apk ] || [ ! -s milkdrop3.apk ]; then
+            echo "Error: APK download failed or file is empty"
+            exit 1
+          fi
+          
+          echo "APK downloaded successfully"
+          ls -lh milkdrop3.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: milkdrop3-apk
+          path: milkdrop3.apk
+          retention-days: 30
 
       - name: Build Info
         continue-on-error: true
         run: |
-          echo "## EAS Build Started" >> $GITHUB_STEP_SUMMARY
+          echo "## EAS Build Completed Successfully" >> $GITHUB_STEP_SUMMARY
           echo "Build URL: ${{ steps.eas-build.outputs.build_url }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "The APK is being built in the cloud by EAS." >> $GITHUB_STEP_SUMMARY
-          echo "Download the APK from the EAS dashboard once the build completes." >> $GITHUB_STEP_SUMMARY
+          echo "### Download APK" >> $GITHUB_STEP_SUMMARY
+          echo "The APK has been built and is available as a GitHub Actions artifact." >> $GITHUB_STEP_SUMMARY
+          echo "Download it from the 'Artifacts' section at the top of this workflow run page." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Installation Instructions" >> $GITHUB_STEP_SUMMARY
-          echo "1. Wait for the EAS build to complete (check the URL above)" >> $GITHUB_STEP_SUMMARY
-          echo "2. Download the APK from EAS" >> $GITHUB_STEP_SUMMARY
+          echo "1. Download the 'milkdrop3-apk' artifact from this workflow run" >> $GITHUB_STEP_SUMMARY
+          echo "2. Extract the ZIP file to get 'milkdrop3.apk'" >> $GITHUB_STEP_SUMMARY
           echo "3. Transfer to your Android device" >> $GITHUB_STEP_SUMMARY
           echo "4. Enable 'Install from Unknown Sources' in Settings" >> $GITHUB_STEP_SUMMARY
           echo "5. Tap the APK to install" >> $GITHUB_STEP_SUMMARY
