@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,34 +21,40 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install -g eas-cli pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install EAS CLI
+        run: npm install -g eas-cli
         
       - name: Install project dependencies
         run: pnpm install
 
       - name: Build APK with EAS
-        run: eas build --platform android --profile preview --non-interactive
+        id: eas_build
+        run: |
+          eas build --platform android --profile preview --non-interactive --json | tee build_output.json
+          
+          # Extract the artifact URL using jq if available
+          if command -v jq &> /dev/null; then
+            ARTIFACT_URL=$(jq -r '.[0].artifacts.buildUrl // empty' build_output.json 2>/dev/null || true)
+          fi
+          
+          if [ -n "$ARTIFACT_URL" ]; then
+            echo "artifact_url=$ARTIFACT_URL" >> $GITHUB_OUTPUT
+            echo "APK available at: $ARTIFACT_URL"
+          fi
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: milkdrop3-apk
-          path: '*.apk'
-          retention-days: 30
-
       - name: Create Release
-        if: success()
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          release_name: MilkDrop 3 Mobile Build ${{ github.run_number }}
+          name: MilkDrop 3 Mobile Build ${{ github.run_number }}
           body: |
             ## MilkDrop 3 Mobile APK Build
             
@@ -53,10 +62,11 @@ jobs:
             **Commit:** ${{ github.sha }}
             **Branch:** ${{ github.ref_name }}
             
-            Download the APK from the artifacts section below.
+            ### Download APK
+            ${{ steps.eas_build.outputs.artifact_url != '' && format('Download the APK from: {0}', steps.eas_build.outputs.artifact_url) || 'Check the EAS build dashboard at https://expo.dev for the APK download link.' }}
             
             ### Installation Instructions
-            1. Download the APK file
+            1. Download the APK file from the link above
             2. Transfer to your Android device
             3. Enable "Install from Unknown Sources" in Settings
             4. Tap the APK to install
@@ -69,6 +79,6 @@ jobs:
             - 70+ customization settings
             - Preset save/share functionality
             
-            **Requires:** Android OS 16+ (API Level 35+)
+            **Requires:** Android 7.0+ (API Level 24+)
           draft: false
           prerelease: false
