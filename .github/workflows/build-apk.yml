@@ -6,69 +6,89 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: npm install -g eas-cli pnpm
-        
-      - name: Install project dependencies
-        run: pnpm install
+        run: |
+          npm install -g eas-cli
+          pnpm install
 
       - name: Build APK with EAS
-        run: eas build --platform android --profile preview --non-interactive
+        id: eas_build
+        run: |
+          eas build --platform android --profile preview --non-interactive --json > build-output.json
+          cat build-output.json
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Extract build URL and download APK
+        run: |
+          BUILD_URL=$(jq -r '.[0].artifacts.buildUrl // .artifacts.buildUrl // empty' build-output.json)
+          if [ -z "$BUILD_URL" ]; then
+            echo "Build URL not found in output"
+            cat build-output.json
+            exit 1
+          fi
+          echo "Downloading APK from: $BUILD_URL"
+          curl -L -o milkdrop3.apk "$BUILD_URL"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: milkdrop3-apk
-          path: '*.apk'
+          path: 'milkdrop3.apk'
           retention-days: 30
 
       - name: Create Release
         if: success()
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          release_name: MilkDrop 3 Mobile Build ${{ github.run_number }}
+          name: MilkDrop 3 Mobile Build ${{ github.run_number }}
           body: |
             ## MilkDrop 3 Mobile APK Build
-            
+
             **Build Number:** ${{ github.run_number }}
             **Commit:** ${{ github.sha }}
             **Branch:** ${{ github.ref_name }}
-            
-            Download the APK from the artifacts section below.
-            
+
+            Download the APK from the assets section below.
+
             ### Installation Instructions
             1. Download the APK file
             2. Transfer to your Android device
             3. Enable "Install from Unknown Sources" in Settings
             4. Tap the APK to install
             5. Launch MilkDrop 3!
-            
+
             ### Features
             - WebGL visualization engine
             - 319 curated presets
             - Touch gesture controls
             - 70+ customization settings
             - Preset save/share functionality
-            
-            **Requires:** Android OS 16+ (API Level 35+)
+
+            **Requires:** Android 7.0+ (API 24)
+          files: milkdrop3.apk
           draft: false
           prerelease: false
