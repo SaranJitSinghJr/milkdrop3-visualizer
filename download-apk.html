@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MilkDrop 3 - Download APK</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin: 40px auto 20px;
+      background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      box-shadow: 0 10px 40px rgba(233, 69, 96, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #e94560;
+      background: linear-gradient(90deg, #e94560, #533483);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: #a0a0a0;
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .download-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+      color: #fff;
+      text-decoration: none;
+      padding: 18px 40px;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
+    }
+
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(233, 69, 96, 0.5);
+    }
+
+    .download-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .version-info {
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 15px;
+    }
+
+    .features {
+      text-align: left;
+      margin: 30px 0;
+    }
+
+    .features h3 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      color: #e94560;
+    }
+
+    .features ul {
+      list-style: none;
+    }
+
+    .features li {
+      padding: 8px 0;
+      padding-left: 30px;
+      position: relative;
+      color: #ccc;
+    }
+
+    .features li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #4ade80;
+      font-weight: bold;
+    }
+
+    .install-steps {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 25px;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .install-steps h3 {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      color: #e94560;
+    }
+
+    .install-steps ol {
+      padding-left: 20px;
+      color: #bbb;
+    }
+
+    .install-steps li {
+      padding: 8px 0;
+      line-height: 1.5;
+    }
+
+    .requirements {
+      color: #888;
+      font-size: 0.85rem;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .github-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #888;
+      text-decoration: none;
+      margin-top: 30px;
+      padding: 10px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+
+    .github-link:hover {
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .github-link svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      color: #666;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .download-btn {
+        padding: 15px 30px;
+        font-size: 1rem;
+      }
+
+      .logo {
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🎵</div>
+
+    <h1>MilkDrop 3</h1>
+    <p class="subtitle">Audio Visualizer for Android</p>
+
+    <div class="download-card">
+      <a href="https://github.com/SaranJitSinghJr/milkdrop3-visualizer/releases/latest/download/milkdrop3.apk" class="download-btn" id="downloadBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
+        Download APK
+      </a>
+      <p class="version-info">Latest release from GitHub</p>
+
+      <div class="features">
+        <h3>Features</h3>
+        <ul>
+          <li>WebGL visualization engine</li>
+          <li>319 curated presets</li>
+          <li>Touch gesture controls</li>
+          <li>70+ customization settings</li>
+          <li>Preset save/share functionality</li>
+        </ul>
+      </div>
+
+      <div class="install-steps">
+        <h3>Installation Instructions</h3>
+        <ol>
+          <li>Tap the <strong>Download APK</strong> button above</li>
+          <li>Open your device's <strong>Settings</strong></li>
+          <li>Go to <strong>Security</strong> → <strong>Install Unknown Apps</strong></li>
+          <li>Enable installation from your browser</li>
+          <li>Open the downloaded APK file to install</li>
+          <li>Launch <strong>MilkDrop 3</strong> and enjoy!</li>
+        </ol>
+      </div>
+
+      <p class="requirements">
+        <strong>Requirements:</strong> Android OS 7.0+ (API Level 24+)
+      </p>
+    </div>
+
+    <a href="https://github.com/SaranJitSinghJr/milkdrop3-visualizer/releases" class="github-link">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+      </svg>
+      View All Releases on GitHub
+    </a>
+  </div>
+
+  <footer>
+    <p>Based on MilkDrop by Ryan Geiss &copy; Nullsoft</p>
+  </footer>
+
+
+</body>
+</html>
