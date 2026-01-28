@@ -1,0 +1,134 @@
+name: Build APK with EAS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install dependencies
+        run: npm install -g eas-cli pnpm
+        
+      - name: Install project dependencies
+        run: pnpm install
+
+      - name: Build APK with EAS
+        id: eas_build
+        run: |
+          BUILD_OUTPUT=$(eas build --platform android --profile preview --non-interactive --wait --json 2>&1)
+          BUILD_EXIT_CODE=$?
+          echo "Build output: $BUILD_OUTPUT"
+          
+          # Check if build command failed
+          if [ $BUILD_EXIT_CODE -ne 0 ]; then
+            echo "Error: EAS build command failed with exit code $BUILD_EXIT_CODE"
+            exit 1
+          fi
+          
+          # Validate build info
+          if [ -z "$BUILD_OUTPUT" ]; then
+            echo "Error: EAS build returned empty output"
+            exit 1
+          fi
+          
+          # Extract build info using jq for robust JSON parsing
+          BUILD_INFO=$(echo "$BUILD_OUTPUT" | jq -c '.' 2>/dev/null) || true
+          if [ -z "$BUILD_INFO" ] || [ "$BUILD_INFO" = "null" ]; then
+            echo "Error: Could not extract build info from output"
+            exit 1
+          fi
+          
+          echo "build_info=$BUILD_INFO" >> $GITHUB_OUTPUT
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Download APK
+        id: download_apk
+        run: |
+          BUILD_INFO='${{ steps.eas_build.outputs.build_info }}'
+          
+          # Extract APK URL
+          APK_URL=$(echo "$BUILD_INFO" | jq -r '.[0].artifacts.buildUrl // empty')
+          
+          if [ -z "$APK_URL" ]; then
+            echo "Error: Could not extract APK URL from build info"
+            echo "Build info: $BUILD_INFO"
+            exit 1
+          fi
+          
+          echo "Downloading APK from: $APK_URL"
+          curl -fL --retry 3 -o milkdrop3.apk "$APK_URL"
+          
+          # Validate download success
+          if [ ! -f milkdrop3.apk ]; then
+            echo "Error: APK file was not downloaded"
+            exit 1
+          fi
+          
+          FILE_SIZE=$(stat -c%s milkdrop3.apk 2>/dev/null || stat -f%z milkdrop3.apk 2>/dev/null)
+          if [ "$FILE_SIZE" -lt 1000 ]; then
+            echo "Error: Downloaded APK file is too small (${FILE_SIZE} bytes)"
+            exit 1
+          fi
+          
+          echo "APK downloaded successfully: milkdrop3.apk (${FILE_SIZE} bytes)"
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: milkdrop3-apk
+          path: milkdrop3.apk
+          retention-days: 30
+
+      - name: Create Release
+        if: success()
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: MilkDrop 3 Mobile Build v1.0.${{ github.run_number }}
+          body: |
+            ## MilkDrop 3 Mobile APK Build
+            
+            **Version:** v1.0.${{ github.run_number }}
+            **Commit:** ${{ github.sha }}
+            **Branch:** ${{ github.ref_name }}
+            
+            ### Installation Instructions
+            1. Download the APK file below
+            2. Transfer to your Android device
+            3. Enable "Install from Unknown Sources" in Settings
+            4. Tap the APK to install
+            5. Launch MilkDrop 3!
+            
+            ### Features
+            - WebGL visualization engine
+            - 319 curated presets
+            - Touch gesture controls
+            - 70+ customization settings
+            - Preset save/share functionality
+            
+            **Requires:** Android 7.0+ (API Level 24+)
+          draft: false
+          prerelease: false
+          files: milkdrop3.apk
